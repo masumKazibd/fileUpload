@@ -1,9 +1,10 @@
+using CRUD_image.Models;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllersWithViews();
-//builder.Services.AddDbContext<GuestDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("appCon")));
+builder.Services.AddDbContext<ProductDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("appCon")));
 
 var app = builder.Build();
 
