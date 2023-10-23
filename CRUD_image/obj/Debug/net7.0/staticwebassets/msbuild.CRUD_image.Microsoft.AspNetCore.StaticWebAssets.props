@@ -16,6 +16,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\5e2a5814-2786-454b-aff8-bce8a74ed895_3191286-200.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\892a5661-fc13-408f-a159-15fa67880fba_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>CRUD_image</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CRUD_image</BasePath>
+      <RelativePath>Images/892a5661-fc13-408f-a159-15fa67880fba_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\892a5661-fc13-408f-a159-15fa67880fba_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\b407e790-7177-4adb-946e-6a0b19daf23e_3191286-200.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>CRUD_image</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CRUD_image</BasePath>
+      <RelativePath>Images/b407e790-7177-4adb-946e-6a0b19daf23e_3191286-200.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\b407e790-7177-4adb-946e-6a0b19daf23e_3191286-200.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\d8e6d6cf-d09b-4ed8-93a4-4d4c6ed0d4df_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CRUD_image</SourceId>

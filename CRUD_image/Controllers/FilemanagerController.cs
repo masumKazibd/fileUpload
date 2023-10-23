@@ -20,17 +20,32 @@ namespace CRUD_image.Controllers
             string msg = "";
             if (fileToUpload != null && fileToUpload.Length > 0)
             {
-                string webroot= _hostEnv.WebRootPath;
-                string folder = "Images";
-                string fileName = Guid.NewGuid().ToString()+"_"+fileToUpload.FileName;
-                string fileToWrite = Path.Combine(webroot, folder, fileName);
-                //save
-                using (var stream = new FileStream(fileToWrite, FileMode.Create))
-                {
-                    await fileToUpload.CopyToAsync(stream);
-                    msg = "File [" + fileName + "] is uploaded successfully!!!";
-                    
+                if(fileToUpload.Length < 2 * 1024 * 1024){
+                    string ext = Path.GetExtension(fileToUpload.FileName);
+                    if (ext == ".jpg" || ext == ".png" || ext == ".gif")
+                    {
+                        string webroot = _hostEnv.WebRootPath;
+                        string folder = "Images";
+                        string fileName = Guid.NewGuid().ToString() + "_" + fileToUpload.FileName;
+                        string fileToWrite = Path.Combine(webroot, folder, fileName);
+                        //save
+                        using (var stream = new FileStream(fileToWrite, FileMode.Create))
+                        {
+                            await fileToUpload.CopyToAsync(stream);
+                            msg = "File [" + fileName + "] is uploaded successfully!!!";
+
+                        }
+                    }
+                    else
+                    {
+                        msg = "Only jpg, png, gif";
+                    }
                 }
+                else
+                {
+                    msg = "file exceed the size";
+                }
+                
             }
             else
             {
