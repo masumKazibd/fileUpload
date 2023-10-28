@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xvePE0dh2j6rpZqgtBtaAF7lZ8JjdRlGs4KO2lB0Bjc=",
+  "Hash": "VSOWArgGfok3LT+G+MUZmo4AVWv27fahfn6Kk4WgOIc=",
   "Source": "CRUD_image",
   "BasePath": "_content/CRUD_image",
   "Mode": "Default",
@@ -5013,6 +5013,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\validation\\localization\\methods_pt.min.js"
+    },
+    {
+      "Identity": "F:\\Masum Kazi_CS-1279032\\.Net Core\\CRUD_image\\CRUD_image\\wwwroot\\Product_Images\\3117d001-cc60-4ddc-bfc7-7d8bcd6a831c_3191286-200.png",
+      "SourceId": "CRUD_image",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Masum Kazi_CS-1279032\\.Net Core\\CRUD_image\\CRUD_image\\wwwroot\\",
+      "BasePath": "_content/CRUD_image",
+      "RelativePath": "Product_Images/3117d001-cc60-4ddc-bfc7-7d8bcd6a831c_3191286-200.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Product_Images\\3117d001-cc60-4ddc-bfc7-7d8bcd6a831c_3191286-200.png"
+    },
+    {
+      "Identity": "F:\\Masum Kazi_CS-1279032\\.Net Core\\CRUD_image\\CRUD_image\\wwwroot\\Product_Images\\c8c83a95-2afc-4865-8eae-af6dbeb82a9e_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg",
+      "SourceId": "CRUD_image",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Masum Kazi_CS-1279032\\.Net Core\\CRUD_image\\CRUD_image\\wwwroot\\",
+      "BasePath": "_content/CRUD_image",
+      "RelativePath": "Product_Images/c8c83a95-2afc-4865-8eae-af6dbeb82a9e_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Product_Images\\c8c83a95-2afc-4865-8eae-af6dbeb82a9e_desktop-wallpaper-phone-and-background-in-2020-pikachu-iphone-pikachu-cute-pokemon-cool-pikachu-thumbnail.jpg"
+    },
+    {
+      "Identity": "F:\\Masum Kazi_CS-1279032\\.Net Core\\CRUD_image\\CRUD_image\\wwwroot\\Product_Images\\d12b5301-74f6-4fd6-befe-02de0cb82e13_3191286-200.png",
+      "SourceId": "CRUD_image",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Masum Kazi_CS-1279032\\.Net Core\\CRUD_image\\CRUD_image\\wwwroot\\",
+      "BasePath": "_content/CRUD_image",
+      "RelativePath": "Product_Images/d12b5301-74f6-4fd6-befe-02de0cb82e13_3191286-200.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Product_Images\\d12b5301-74f6-4fd6-befe-02de0cb82e13_3191286-200.png"
     }
   ]
 }
